@@ -1,0 +1,268 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #1ABC9C;
+    margin-bottom: 10px;
+}
+
+header .livia {
+    color: #34495e;
+}
+
+.sub-heading {
+    font-size: 1.3rem;
+    color: #7f8c8d;
+}
+
+/* Intro Section */
+.intro {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+.intro ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.intro ul li {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Form Section */
+.product-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.product-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    color: #34495e;
+}
+
+.product-form input,
+.product-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.product-form input:focus,
+.product-form textarea:focus {
+    border-color: #1abc9c;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.btn-submit {
+    background-color: #1abc9c;
+    color: white;
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #16a085;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .product-form input,
+    .product-form textarea {
+        padding: 10px;
+    }
+
+    .btn-submit {
+        padding: 12px 20px;
+    }
+}
+/* Footer Styles */
+/* Footer Styles */
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    width: 150px;
+    height: auto;
+}
+
+footer .footer-tagline {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+footer .footer-links ul li {
+    margin: 0 20px;
+}
+
+footer .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+footer .footer-links ul li a:hover {
+    color: #1abc9c;
+}
+
+footer .footer-contact {
+    margin-bottom: 20px;
+}
+
+footer .footer-contact p {
+    margin: 5px 0;
+}
+
+footer .footer-contact a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer .footer-social {
+    margin-bottom: 20px;
+}
+
+footer .social-icon {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+footer .social-icon:hover {
+    color: #1abc9c;
+}
+
+footer .footer-copy {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer .footer-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-links ul li {
+        margin: 10px 0;
+    }
+
+    footer .footer-social {
+        text-align: center;
+    }
+
+    footer .social-icon {
+        margin: 10px 5px;
+    }
+}

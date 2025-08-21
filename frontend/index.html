@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Livia - Add Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to <span class="livia">Livia</span></h1>
+            <p class="sub-heading">The best e-commerce platform to add and manage your products!</p>
+        </header>
+
+        <section class="intro">
+            <h2>How to Add Products</h2>
+            <p>Follow these simple rules to add your products effectively:</p>
+            <ul>
+                <li>Provide accurate and clear product details.</li>
+                <li>Ensure that the prices and discounts are correct.</li>
+                <li>Upload high-quality images for the best presentation.</li>
+            </ul>
+        </section>
+
+        <section class="product-form">
+            <h2>Add New Product</h2>
+            <form id="productForm">
+                <label for="name">Product Name</label>
+                <input type="text" id="name" placeholder="Product Name" required>
+
+                <label for="description">Description</label>
+                <textarea id="description" placeholder="Product Description" required></textarea>
+
+                <label for="price">Price</label>
+                <input type="number" id="price" placeholder="Price" required>
+
+                <label for="brand">Brand</label>
+                <input type="text" id="brand" placeholder="Brand" required>
+
+                <label for="category">Category</label>
+                <input type="text" id="category" placeholder="Category" required>
+
+                <label for="stock">Stock Quantity</label>
+                <input type="number" id="stock" placeholder="Stock Quantity" required>
+
+                <label for="discount">Discount (%)</label>
+                <input type="number" id="discount" placeholder="Discount" step="0.1">
+
+                <label for="images">Image URLs (comma separated)</label>
+                <input type="text" id="images" placeholder="e.g. image1.jpg, image2.jpg" required>
+
+                <label for="rating">Product Rating</label>
+                <input type="number" id="rating" placeholder="Rating" step="0.1" max="5" min="0" required>
+
+                <label for="reviewsCount">Reviews Count</label>
+                <input type="number" id="reviewsCount" placeholder="Reviews Count" required>
+
+                <label for="originalPrice">Original Price</label>
+                <input type="number" id="originalPrice" placeholder="Original Price" required>
+
+                <button type="submit" class="btn-submit">Add Product</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="./assets/img/Untitled_design1-removebg-preview.png" alt="Livia Logo" class="logo">
+            <p class="footer-tagline">Your go-to platform for premium products.</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./privacy/privacy.html">Privacy Policy</a></li>
+                <li><a href="./terms/terms.html">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <p><strong>Contact Us:</strong></p>
+            <p>Email: <a href="mailto:support@livia.com">support@livia.com</a></p>
+            <p>Phone: <a href="tel:+919939422547">+91-9939422547</a></p>
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+        <p class="footer-copy">&copy; 2025 Livia. All Rights Reserved.</p>
+    </div>
+</footer>
+</html>

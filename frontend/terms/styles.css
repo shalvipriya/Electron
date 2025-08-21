@@ -1,0 +1,94 @@
+/* General Styles for Terms Page */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #1abc9c;
+}
+
+main {
+    padding: 40px;
+}
+
+.terms-container {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.terms-container h1 {
+    font-size: 2.5rem;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.terms-container h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-top: 20px;
+}
+
+.terms-container p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.terms-container a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.terms-container a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
